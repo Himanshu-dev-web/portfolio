@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    text-align: center;
+    background-color: rgb(229, 250, 243);
+    font-family: 'Roboto Mono', monospace;
+    }
+
+.nav-item{
+    padding: 0px 15px 0px;
+}
+.intro{
+    padding: 25px 25px 25px;
+}
+.profile-pic{
+    border-radius:100% ;
+    width: 300px;
+}
+h1{
+    padding: 55px 0px 0px;
+}
+hr{
+    width: 15%;
+    border-top:10px dotted rgb(121, 121, 121);
+  
+}
+#title{
+    padding: 25px 25px 25px;
+}
+
+.about-us{
+    padding: 20px 10px 20px;
+    font-size: 1.5rem;
+}
+.qualification{
+    padding: 25px 25px 25px;
+    display: flex;
+   justify-content: center;
+}
+/* .card{
+    padding: 0px 50px 0px;
+  
+} */
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.2) ;
+    transition: transform .5s;
+}
+.exp-points{
+    padding: 25px 25px 25px;
+}
+.li-item{
+    padding: 25px 25px 25px;
+    text-decoration: underline;
+}
+
+#contact{
+    padding: 25px 25px 25px;
+}
+#skill{
+  display: flex;
+  justify-content: center; 
+  text-align:unset;
+}
+.skill-li{
+    padding: 25px 25px 25px;
+}
+
